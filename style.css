@@ -1,0 +1,131 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    background-color: rgb(255, 109, 56);
+    border-radius: 5%;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 30%;
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px rgb(143, 13, 39),
+    1px -1px 0px rgb(143, 13, 39),
+    -1px -1px 0px rgb(143, 13, 39);
+
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: coral;
+    color: rgb(106, 240, 153);
+    display: flex;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > header > nav > ul {
+    background-color: rgb(255, 109, 56);
+    list-style: none;
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 2vh;
+}
+
+#nav_ul {
+    display: flex;
+}
+
+#nav_ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+.navbutton {
+    color: rgb(106, 240, 153);
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid rgb(106, 240, 153);
+    border-radius: 5%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main_content > div {
+    width: 70%;
+    text-align: center;
+}
+
+#main_content > div p {
+    text-align: left;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#footer_title {
+    margin: 0px;
+    padding: 8px;
+    background-color: rgb(255, 109, 56);
+    border-radius: 5%;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 30%;
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px rgb(143, 13, 39),
+    1px -1px 0px rgb(143, 13, 39),
+    -1px -1px 0px rgb(143, 13, 39);
+}
+
+body > footer {
+    background-color: coral;
+    display: flex;
+    color: rgb(106, 240, 153);
+    display: flex;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer_ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer_ul > div > li {
+    margin-left: 12px;
+}
+
+#footer_ul > div > li > a {
+    margin-left: 12px;
+}
+
+img {
+    border-radius: 10%;
+}
+
